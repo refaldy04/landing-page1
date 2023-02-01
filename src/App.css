@@ -1,0 +1,99 @@
+#root {
+  margin: 0;
+  text-align: center;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.my-navbar {
+  background-color: transparent !important;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: transparent !important;
+}
+
+.header {
+  font-size: 8em !important;
+  font-weight: bold;
+  color: #333;
+}
+
+.section {
+  margin: 0 auto !important;
+}
+
+.section1 {
+  background-color: rgb(255, 95, 69);
+  background-image: url('../public/bg5.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+
+.container h1 {
+  font-size: 72px;
+  font-weight: bold;
+  color: #fec401;
+}
+.container p {
+  color: #fec401;
+}
+
+.orange-text {
+  color: #fec401;
+}
+
+.section2 {
+  background-color: #0798ec !important;
+}
+
+.indo {
+  background-image: url('../public/Indomaret.png');
+  width: 7rem;
+  height: 3rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.alfa {
+  background-image: url('../public/alfamart.png');
+  width: 7rem;
+  height: 3rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.section3 {
+  background-color: #fc6c7c !important;
+}
+
+.section4 {
+  background-color: #fec401 !important;
+  background-image: url('../public/bg1.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 25%;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header {
+    font-size: 5em !important;
+  }
+}
